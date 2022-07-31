@@ -1,0 +1,185 @@
+:root {
+  --main-color: #37003c;
+}
+
+.logo img {
+  height: 150px;
+}
+.clubs img {
+  padding: 5px;
+  min-height: 40px;
+}
+.club-state {
+  font-size: 0.65rem;
+}
+.nav {
+  background-color: var(--main-color);
+  color: aliceblue;
+  margin-right: 10px;
+  transform: rotateX(120);
+  border-radius: 100px 0 0 100px / 0px 60px;
+}
+.kk {
+  color: aliceblue;
+  border-left: 1px solid wheat;
+  border-radius: 10px 0 5% 0 / 20px 30px;
+}
+.active {
+  position: relative;
+}
+.active::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  background-image: linear-gradient(to right, #aa7fde, #a54cb3);
+  bottom: -11px;
+  left: 0;
+  padding: 2px 0;
+}
+.play {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/header-bg-d.f81b11f2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--main-color);
+  margin-top: -8px;
+  overflow: hidden;
+}
+.play-text {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-family: cursive;
+  padding-left: 25px;
+}
+.player-img {
+  width: 360px;
+  position: absolute;
+  height: 240px;
+  background-image: url(../img/player-comp-4-1x.b21487bc.png);
+  right: 100px;
+  bottom: 0;
+}
+.links li {
+  color: aliceblue;
+  background-color: #02884e;
+  padding: 14px;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 15%;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sign-in .main-btn {
+  width: 200px;
+  background-color: var(--main-color);
+  height: 40px;
+  margin-top: 5px;
+}
+.sign-in .sign-form {
+  font-size: 12px;
+  font-weight: 900;
+}
+.sign-form svg {
+  font-size: 12px;
+  color: red;
+}
+.email {
+  width: 280px;
+  height: 48px;
+}
+.password {
+  width: 210px;
+  height: 48px;
+}
+.or {
+  background-color: #eedbdb;
+  width: 85%;
+  height: 3px;
+  position: relative;
+  z-index: 0;
+  margin: 0 100px;
+}
+.or-text {
+  position: absolute;
+  padding: 5px 15px;
+  z-index: 3;
+  bottom: -11px;
+  background-color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+}
+.main-accounts {
+  color: #ffffff;
+  padding: 8px 0;
+  max-width: 193px;
+  cursor: pointer;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #00aced;
+}
+.google {
+  background-color: #1c6ef2;
+}
+.apple {
+  background-color: #000000;
+}
+.main-accounts i {
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.accounts div:nth-child(3) {
+  font-weight: 500;
+}
+.accounts div:nth-child(3) i {
+  background: linear-gradient(red 30%, yellow 70%, green 80%, blue 10%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #ffffff;
+  float: left;
+  padding-left: 10px;
+}
+
+.signup .content {
+  background-color: var(--main-color);
+  width: 90%;
+  margin: auto;
+}
+.signup .content .text {
+  color: #00ff87;
+}
+
+.signup .content .sign-up {
+  background-color: #00ff87;
+  color: #ffffff;
+  padding: 10px;
+  margin: 5px 30px;
+  border-radius: 5px;
+}
+.show {
+  padding-right: 4rem !important;
+}
+.show-content {
+  background-color: #ebebe6;
+}
+
+.scuat {
+  position: relative;
+  width: 100%;
+  background-color: #00ff87;
+}
+.scout-bg {
+  position: relative;
+  background-image: url(../img/scout-promo-bg.5f145363.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: 00ff87;
+  overflow: hidden;
+}
